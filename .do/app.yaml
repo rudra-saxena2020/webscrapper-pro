@@ -1,0 +1,24 @@
+name: mirage-sync-worker
+region: nyc
+
+workers:
+  - name: auto-sync-worker
+    github:
+      repo: rudra-saxena2020/webscrapper-pro
+      branch: main
+      deploy_on_push: true
+    source_dir: do_worker
+    dockerfile_path: do_worker/Dockerfile
+    instance_size_slug: basic-xxs
+    instance_count: 1
+    envs:
+      - key: REPLIT_APP_URL
+        value: "https://c1924bc5-65c6-40cb-8b31-eae40a33cbb4-00-3ucl0z6gxv78f.pike.replit.dev"
+        scope: RUN_AND_BUILD_TIME
+      - key: SYNC_TOKEN
+        value: ""
+        scope: RUN_AND_BUILD_TIME
+        type: SECRET
+      - key: WORKER_VERSION
+        value: "1.0.0"
+        scope: RUN_AND_BUILD_TIME

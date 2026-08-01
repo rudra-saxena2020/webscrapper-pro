@@ -1,0 +1,86 @@
+[
+  {
+    "id": "coach",
+    "name": "coach",
+    "base_url": "https://www.coach.com/shop/outlet/women/view-all",
+    "type": "cruise_fashion"
+  },
+  {
+    "id": "michael_kors",
+    "name": "michael_kors",
+    "base_url": "https://www.michaelkors.com/outlet/view-all/",
+    "type": "michael_kors"
+  },
+  {
+    "id": "gymshark",
+    "name": "Gymshark",
+    "base_url": "https://www.gymshark.com/collections/all-products/womens,https://www.gymshark.com/collections/all-products/mens",
+    "type": "gymshark"
+  },
+  {
+    "id": "aloyoga",
+    "name": "Alo Yoga",
+    "base_url": "https://www.aloyoga.com/collections/womens-shop-all,https://www.aloyoga.com/pages/mens",
+    "type": "aloyoga"
+  },
+  {
+    "id": "drmartens",
+    "name": "drmartens",
+    "base_url": "https://www.drmartens.com/us/en/womens/c/01000000",
+    "type": "drmartens"
+  },
+  {
+    "id": "ugg",
+    "name": "ugg",
+    "base_url": "https://www.ugg.com/women-footwear/",
+    "type": "ugg"
+  },
+  {
+    "id": "underarmour",
+    "name": "underarmour",
+    "base_url": "https://www.underarmour.com",
+    "type": "underarmour"
+  },
+  {
+    "id": "thereformation",
+    "name": "thereformation",
+    "base_url": "https://www.thereformation.com",
+    "type": "thereformation"
+  },
+  {
+    "id": "stanley1913",
+    "name": "Stanley 1913",
+    "base_url": "https://www.stanley1913.com",
+    "type": "stanley1913"
+  },
+  {
+    "id": "gemopticians",
+    "name": "GEM Opticians",
+    "base_url": "https://gemopticians.com",
+    "type": "gemopticians"
+  },
+  {
+    "id": "katespadeoutlet",
+    "name": "Kate Spade Outlet",
+    "base_url": "https://www.katespadeoutlet.com",
+    "type": "katespadeoutlet"
+  },
+  {
+    "id": "tory",
+    "name": "Tory Burch",
+    "base_url": "https://www.toryburch.com",
+    "type": "tory"
+  },
+  {
+    "id": "karl",
+    "name": "Karl Lagerfeld",
+    "base_url": "https://www.karllagerfeld.com",
+    "type": "karl"
+  },
+  {
+    "id": "jwpei",
+    "name": "JW PEI",
+    "base_url": "https://www.jwpei.com/collections/shop-all",
+    "type": "jwpei"
+  }
+]

@@ -1,0 +1,46 @@
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+venv*/
+
+# ── Build output ──────────────────────────────────────────────────────────────
+build/
+dist/
+coverage/
+.pytest_cache/
+
+# ── Large data files (never commit) ───────────────────────────────────────────
+scraped_files/
+exports/
+coach.csv
+scraper.db
+downloaded_files/
+logs/
+
+# ── Replit-internal dirs (not project code) ───────────────────────────────────
+.agents/
+.local/
+artifacts/
+
+# ── Scripts that contain secrets ──────────────────────────────────────────────
+scripts/github_push.py
+scripts/github_pull.py
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# ── JSON: ignore most but keep key project files ──────────────────────────────
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!scrapers_registry.json
+
+processed_images/
